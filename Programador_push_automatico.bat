@@ -16,7 +16,7 @@ if %errorlevel% equ 0 (
     git add .
 
     :: Crea un commit con una marca de tiempo
-    git commit -m "Commit automático de Borja %date% %time%"
+    git commit -m "Commit automatico de Borja %date% %time%"
 
     :: utilizo la función choice para que se pueda confirmar el push al repositorio remoto y evitar que se suba algo por error.
     choice /C SN /M "¿Quieres hacer push al repositorio remoto? S/N: "
@@ -29,4 +29,4 @@ if %errorlevel% equ 0 (
 )
 
 :: Programa la tarea en el Programador de tareas para ejecutar este script cada 30 minutos
-schtasks /create /sc minute /mo 30 /tn "Auto Push Git" /tr "C:\ruta\a\tu\repositorio\local\git_auto_push.bat"
+schtasks /create /sc minute /mo 30 /tn "Auto Push Git" /tr "C:\Users\bsilv\Desktop\REPOS\repomacia\smx_2"
