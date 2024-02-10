@@ -1,4 +1,4 @@
-C:\Users\bsilv\Desktop\REPOS\repomacia\smx_2\Programador_push_automatico2.bat
+
 
 @echo off
 
@@ -31,7 +31,7 @@ if %errorlevel% equ 0 (
     git add .
 
     :: Crear un commit con una marca de tiempo
-    git commit -m "Commit automático de Borja %date% %time%"
+    git commit -m "Commit automatico de Borja %date% %time%"
 
     :: Realizar el push al repositorio remoto sin solicitar confirmación al usuario
     git push origin %BRANCH%
