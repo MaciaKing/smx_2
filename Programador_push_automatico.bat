@@ -19,7 +19,7 @@ if %errorlevel% equ 0 (
     git add .
 
     :: Crea un commit con una marca de tiempo
-    git commit -m "Commit automático de Borja %date% %time%"
+    git commit -m "Commit automatico de Borja %date% %time%"
 
     :: Realiza el push al repositorio remoto sin solicitar confirmación al usuario
     git push origin %BRANCH%
