@@ -1,8 +1,3 @@
-::SCRIPT QUE PROGRAMA LA TAREA PARA AUTO PUSHEAR EL REPOSITORIO LOCAL AL REMOTO:
-::lo he hecho para windows (.bat)
-:: [https://gist.github.com/son-link/890903] Me he mirado este git que hacía lo mismo pero para Linux.
-
-
 @echo off
 
 :: definimos las variables con la ruta de mi repo y la rama específica donde se va a subir automáticamente.
