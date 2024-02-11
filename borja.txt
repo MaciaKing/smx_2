@@ -1,3 +1,6 @@
+
+
+
 ::SCRIPT QUE PROGRAMA LA TAREA PARA AUTO PUSHEAR EL REPOSITORIO LOCAL AL REMOTO:
 ::lo he hecho para windows (.bat)
 
